@@ -2,8 +2,15 @@
   margin: 0;
 }
 .container {
+  display: flex;
 }
 .heading {
+  background-color: rgb(17, 255, 124);
+  color: #fff;
+  height: 100%;
+  width: 100%;
 }
 .box {
+  height: 100%;
+  width: 100%;
 }
