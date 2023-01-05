@@ -6,19 +6,20 @@
 }
 .container {
   display: flex;
+  flex-direction: column;
 }
 .heading {
   background-color: rgb(17, 255, 124);
   color: #fff;
   height: 100%;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* display: flex;
+  justify-content: flex-end;
+  align-items: center; */
 }
 .box {
-  height: 150px;
-  width: 150px;
+  height: device-height;
+  width: device-width;
   background-color: red;
   padding: 1rem;
   font-weight: 700;
@@ -28,17 +29,15 @@
 }
 .b1 {
   background-color: orange;
-  justify-content: flex-end;
 }
 .b2 {
-  /* background-color: blue; */
+  background-color: white;
+  color: lightblue !important;
 }
 .b3 {
-  background-color: pink;
+  background-color: darkgreen;
 }
-.b4 {
-  background-color: maroon;
-}
-.b5 {
-  background-color: magenta;
+.ashoka {
+  height: 150px;
+  width: 150px;
 }
