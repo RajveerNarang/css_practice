@@ -7,6 +7,8 @@
 .container {
   display: flex;
   flex-direction: column;
+  height: 500px;
+  width: 500px;
 }
 .heading {
   background-color: rgb(17, 255, 124);
@@ -18,13 +20,13 @@
   align-items: center; */
 }
 .box {
-  height: device-height;
-  width: device-width;
+  height: 60px;
+  width: 100%;
   background-color: red;
   padding: 1rem;
   font-weight: 700;
   text-align: center;
-  border: radius 10px lightpink;
+  border: gray 1.5px;
   color: #fff;
 }
 .b1 {
@@ -38,6 +40,9 @@
   background-color: darkgreen;
 }
 .ashoka {
-  height: 150px;
-  width: 150px;
+  height: 44px;
+  width: 90px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
