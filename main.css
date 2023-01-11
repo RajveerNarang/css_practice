@@ -41,8 +41,11 @@
 }
 .ashoka {
   height: 44px;
-  width: 90px;
+  width: 58px;
   justify-content: center;
   align-items: center;
   position: relative;
+  bottom: 8px;
+}
+.flag_container {
 }
